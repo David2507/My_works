@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.main{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 117vh;
+    background-image: url(https://i.postimg.cc/YqFd6KWs/1.jpg);
+
+}
+.navbar{
+    width: 1500px;
+    height: 75px;
+    
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+    
+}
+.logo{
+    color: chocolate;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+    
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ul li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 17px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: coral;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 570px;
+
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid rgb(255, 81, 0);
+    margin-top: 13px;
+    color: rgb(255, 255, 255);
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: orangered;
+    border: 2px solid orangered;
+    margin-top: 13px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    border-top-right-radius: 5px;
+
+}
+.btn:focus{
+    outline: none;
+}
+.crch:focus{
+    outline: none;
+}
